@@ -1,0 +1,149 @@
+body{
+    background-color: #1C2230;
+}
+nav{
+    background-color: #1C2230;
+    height: 80px;
+}
+.navbar-brand img{
+    width: 50%;
+}
+section{
+    background-image: url("../image/bg-curvy-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100;
+    /* position: relative; */
+}
+#inp{
+    width: 70%;
+    border-radius: 35px;
+}
+.btn{
+    border-radius: 35px;
+    background-color: #4FC4D5;
+}
+.col-md-6 h5, p{
+    font-size: 16px;
+}
+#ilus1{
+    width: 50%;
+}
+#image{
+    width: 25%;
+    border-radius: 100%;
+}
+#flex{
+    display: flex;
+}
+.w-75{
+    margin-left: -90px;
+    margin-top: -5px;
+}
+.w-75 p{
+    margin-top: -10px;
+}
+.img{
+    margin-left: -15px;
+}
+.footer{
+    background-color: #0C1524;
+}
+#images{
+    width: 10%;
+}
+.card{
+    background-color: #1C2230;
+}
+.card p{
+    font-size: 12px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#foot i{
+    border-radius: 100%;
+    background-color: #1C2230;
+    color: white;
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    margin-left: 5px;
+}
+.row{
+    width: 90%;
+}
+#inp{
+    width: 60%;
+}
+#btn{
+    width: 30%;
+}
+#cards{
+    /* position: absolute; */
+    height: 45vh;
+
+}
+
+@media (max-width: 575px) {
+    li{
+        margin: 0px 0px;
+    }
+    .btn{
+        width: 100% !important;
+    }
+    #ilus1{
+        width: 100% !important;
+    }
+    #ilus2{
+        width: 100% !important;
+    }
+    #col{
+        width: 100% !important;
+    }
+    p{
+        font-size: 13px !important;
+    }
+    h4,h5{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    #cont{
+        background-image: none;
+    }
+    .text-success{
+        font-size: 14px !important;
+    }
+    #text{
+        margin-top: 3px;
+        margin-left: 0;
+    }
+    .img{
+        width: 15%;
+        margin-left: 0;
+    }
+    #images{
+        width: 30%;
+    }
+    #inp{
+        width: 100%;
+        border-radius: 35px;
+    }
+    .row{
+        width: 90%;
+    }
+    #btn{
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin: auto !important;
+        margin-top: 5px !important;
+    }
+    #none{
+        display: none;
+    }
+    #cards{
+        height: auto;
+        width: 90% !important;
+    }
+}
